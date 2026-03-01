@@ -50,6 +50,11 @@ The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum 
 ## Usage
 
 ```javascript
+import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmidrange-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-nanmidrange-by/tags). For example,
+
+```javascript
 import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmidrange-by@v0.0.0-esm/index.mjs';
 ```
 
@@ -134,7 +139,7 @@ var cnt = context.count;
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmidrange-by@v0.0.0-esm/index.mjs';
+import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-nanmidrange-by@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
